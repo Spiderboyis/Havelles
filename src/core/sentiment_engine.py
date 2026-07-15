@@ -118,7 +118,7 @@ class SentimentAnalyzer:
             "negative_context": ["cheap", "flimsy", "thin", "fragile", "poor"],
         },
         "noise": {
-            "keywords": ["noise", "sound", "buzzing", "humming", "clicking", "vibration", "loud", "quiet"],
+            "keywords": ["noise", "noisy", "sound", "buzzing", "humming", "clicking", "vibration", "loud", "quiet"],
             "positive_context": ["silent", "quiet", "noiseless", "smooth"],
             "negative_context": ["noisy", "loud", "rattling", "buzzing", "irritating"],
         },

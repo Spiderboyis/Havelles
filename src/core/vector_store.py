@@ -48,7 +48,7 @@ class VectorStoreManager:
         self.vectorizer = TfidfVectorizer(
             max_features=max_features,
             ngram_range=(1, 2),
-            min_df=2,
+            min_df=1,
             max_df=0.9,
             sublinear_tf=True,
         )
